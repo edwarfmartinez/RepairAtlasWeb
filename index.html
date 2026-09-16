@@ -49,59 +49,66 @@
         </div>
 
         <div class="hero-art" aria-hidden="true">
-          <div class="app-window">
-            <div class="window-topbar">
-              <span class="window-dots"><i></i><i></i><i></i></span>
-              <span class="window-title">Inspection workspace</span>
-              <span class="window-status"><span></span> In progress</span>
-            </div>
-            <div class="window-body">
-              <div class="window-sidebar">
-                <div class="sidebar-logo"><img src="RepairAtlasLogo.png" alt=""></div>
-                <div class="sidebar-item active"><span class="side-icon">⌂</span><span>Overview</span></div>
-                <div class="sidebar-item"><span class="side-icon">▱</span><span>Roof sections</span></div>
-                <div class="sidebar-item"><span class="side-icon">◉</span><span>Repairs</span></div>
-                <div class="sidebar-item"><span class="side-icon">▧</span><span>Photos</span></div>
-                <div class="sidebar-bottom">RA<br><small>INSPECTION</small></div>
-              </div>
-              <div class="workspace-main">
-                <div class="workspace-heading"><div><small>PROPERTY INSPECTION</small><strong>Roof overview</strong></div><span>•••</span></div>
-                <div class="roof-canvas">
-                  <div class="canvas-label">NORTH ELEVATION <span>·</span> SECTION A</div>
-                  <svg viewBox="0 0 560 360" role="presentation" focusable="false">
-                    <defs>
-                      <pattern id="roof-grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M 24 0 L 0 0 0 24" fill="none" stroke="#dbe8e8" stroke-width="1"/></pattern>
-                      <linearGradient id="roof-fill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e0f2f0"/><stop offset="1" stop-color="#c7e8e3"/></linearGradient>
-                    </defs>
-                    <rect width="560" height="360" fill="url(#roof-grid)"/>
-                    <path d="M 80 170 L 198 62 L 298 62 L 363 119 L 450 119 L 490 158 L 490 287 L 372 287 L 372 317 L 227 317 L 227 276 L 80 276 Z" fill="url(#roof-fill)" stroke="#1b787a" stroke-width="4" stroke-linejoin="round"/>
-                    <path d="M 80 170 L 226 170 L 298 62 M 226 170 L 372 287 M 226 170 L 227 276 M 363 119 L 372 287 M 80 276 L 226 170 M 490 158 L 363 119" fill="none" stroke="#63aaaa" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M 113 155 L 177 97 M 399 302 L 467 302" fill="none" stroke="#779a9d" stroke-width="1.5"/>
-                    <text x="110" y="118" fill="#56787c" font-size="12" font-family="Arial, sans-serif" transform="rotate(-42 110 118)">24 ft 6 in</text>
-                    <text x="409" y="322" fill="#56787c" font-size="12" font-family="Arial, sans-serif">18 ft 2 in</text>
-                    <g><circle cx="194" cy="188" r="18" fill="#fa8137" stroke="white" stroke-width="5"/><text x="194" y="194" text-anchor="middle" fill="white" font-size="16" font-weight="700" font-family="Arial, sans-serif">1</text></g>
-                    <g><circle cx="368" cy="196" r="18" fill="#fa8137" stroke="white" stroke-width="5"/><text x="368" y="202" text-anchor="middle" fill="white" font-size="16" font-weight="700" font-family="Arial, sans-serif">2</text></g>
-                    <g><circle cx="278" cy="263" r="18" fill="#1a9d9b" stroke="white" stroke-width="5"/><text x="278" y="269" text-anchor="middle" fill="white" font-size="16" font-weight="700" font-family="Arial, sans-serif">3</text></g>
-                  </svg>
-                  <div class="canvas-control">＋<span></span>−</div>
+          <div class="phone-stage">
+            <div class="phone-glow"></div>
+            <div class="ios-phone phone-report">
+              <div class="phone-screen">
+                <div class="ios-status"><span>9:41</span><span class="ios-status-icons"><i class="signal-bars"></i><i class="wifi-mark"></i><i class="battery-mark"></i></span></div>
+                <div class="dynamic-island"></div>
+                <div class="report-mobile-nav"><span>‹</span><b>Reports</b><span>•••</span></div>
+                <div class="report-mobile-content">
+                  <div class="report-ready"><span>✓</span> READY TO SHARE</div>
+                  <h3>Inspection report</h3>
+                  <p>Residential property · Section A–C</p>
+                  <div class="mobile-pdf">
+                    <div class="mobile-pdf-head"><img src="RepairAtlasLogo.png" alt=""><span>ROOF INSPECTION<br>REPORT</span></div>
+                    <div class="mobile-pdf-rule"></div>
+                    <small>PROPERTY ASSESSMENT</small>
+                    <strong>Roof inspection<br>summary</strong>
+                    <div class="mobile-pdf-photo"><svg viewBox="0 0 190 85" focusable="false"><path d="M0 70 57 18l52 47 37-30 44 36v14H0z" fill="#cce9e5"/><path d="M0 76 58 31l52 47 37-28 43 33" fill="none" stroke="#329c9b" stroke-width="4"/></svg></div>
+                    <div class="mobile-pdf-line"><span>Vent flashing repair</span><b>$425</b></div>
+                    <div class="mobile-pdf-line"><span>Ridge cap replacement</span><b>$380</b></div>
+                    <div class="mobile-pdf-total"><span>Estimated total</span><b>$805</b></div>
+                  </div>
+                  <div class="mobile-share-button">Share PDF <span>↗</span></div>
                 </div>
-                <div class="workspace-foot"><span><i class="legend-dot orange"></i> 2 priority repairs</span><span><i class="legend-dot teal"></i> 1 routine repair</span></div>
-              </div>
-              <div class="window-detail">
-                <div class="detail-top"><span>REPAIR 01</span><span>↗</span></div>
-                <div class="detail-visual"><div class="detail-roof"></div><span class="detail-pin">●</span></div>
-                <h3>Flashing at vent</h3>
-                <p>North elevation · Section A</p>
-                <span class="priority-tag"><i></i> High priority</span>
-                <div class="detail-divider"></div>
-                <small>RECOMMENDED ACTION</small>
-                <strong>Replace damaged flashing and reseal.</strong>
-                <div class="detail-estimate"><span>Estimate</span><b>$425</b></div>
+                <div class="home-indicator"></div>
               </div>
             </div>
+            <div class="ios-phone phone-inspection">
+              <div class="phone-screen">
+                <div class="ios-status"><span>9:41</span><span class="ios-status-icons"><i class="signal-bars"></i><i class="wifi-mark"></i><i class="battery-mark"></i></span></div>
+                <div class="dynamic-island"></div>
+                <div class="inspection-mobile-content">
+                  <div class="mobile-brandbar"><div><img src="RepairAtlasLogo.png" alt=""><b>Repair<span>Atlas</span></b></div><i>RA</i></div>
+                  <div class="mobile-overline">PROPERTY INSPECTION <span>·</span> IN PROGRESS</div>
+                  <h3>Roof overview</h3>
+                  <p class="mobile-address"><span>⌖</span> Residential property</p>
+                  <div class="mobile-segment"><b>Overview</b><span>Repairs</span><span>Photos</span></div>
+                  <div class="mobile-map-card">
+                    <div class="mobile-map-title"><b>Roof plan</b><span>SECTION A</span></div>
+                    <svg viewBox="0 0 260 190" focusable="false">
+                      <defs><pattern id="mobile-roof-grid" width="15" height="15" patternUnits="userSpaceOnUse"><path d="M15 0H0V15" fill="none" stroke="#dceae7" stroke-width=".8"/></pattern></defs>
+                      <rect width="260" height="190" fill="url(#mobile-roof-grid)"/>
+                      <path d="M32 88 85 29h66l38 36h39l19 21v79h-70v15h-79v-21H32z" fill="#d7eeeb" stroke="#217e80" stroke-width="2.4" stroke-linejoin="round"/>
+                      <path d="M32 88h67l52-59M99 88l78 77M99 88l-1 71M189 65l-12 100M32 159l67-71M247 86l-58-21" fill="none" stroke="#74b6b3" stroke-width="1.8" stroke-linejoin="round"/>
+                      <g><circle cx="79" cy="104" r="12" fill="#f98943" stroke="#fff" stroke-width="3"/><text x="79" y="108" text-anchor="middle" fill="#fff" font-size="11" font-weight="700" font-family="Arial,sans-serif">1</text></g>
+                      <g><circle cx="175" cy="110" r="12" fill="#f98943" stroke="#fff" stroke-width="3"/><text x="175" y="114" text-anchor="middle" fill="#fff" font-size="11" font-weight="700" font-family="Arial,sans-serif">2</text></g>
+                      <g><circle cx="136" cy="150" r="12" fill="#1faaa7" stroke="#fff" stroke-width="3"/><text x="136" y="154" text-anchor="middle" fill="#fff" font-size="11" font-weight="700" font-family="Arial,sans-serif">3</text></g>
+                    </svg>
+                    <div class="mobile-map-foot"><span><i></i> 3 repair markers</span><b>View plan ↗</b></div>
+                  </div>
+                  <div class="mobile-list-title"><b>Repairs</b><span>3 items</span></div>
+                  <div class="mobile-repair"><span class="repair-count">1</span><div><b>Vent flashing</b><small>High priority · Section A</small></div><strong>$425</strong></div>
+                  <div class="mobile-repair"><span class="repair-count">2</span><div><b>Ridge cap</b><small>Medium priority · Section A</small></div><strong>$380</strong></div>
+                </div>
+                <div class="mobile-tabbar"><span class="selected"><i>⌂</i>Overview</span><span><i>◈</i>Sections</span><span><i>◉</i>Repairs</span><span><i>▧</i>Photos</span></div>
+                <div class="home-indicator"></div>
+              </div>
+            </div>
+            <div class="phone-floating-note"><span>✓</span><div><b>Ready for review</b><small>3 repairs documented</small></div></div>
           </div>
-          <div class="floating-note"><span class="note-icon">✓</span><div><b>Ready for review</b><small>Every detail in its place</small></div></div>
-          <div class="hero-art-caption">Illustrative workflow preview <span>↗</span></div>
+          <div class="hero-art-caption">Illustrative iOS app preview <span>↗</span></div>
         </div>
       </div>
     </section>
